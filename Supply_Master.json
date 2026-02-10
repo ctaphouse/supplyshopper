@@ -1,0 +1,164 @@
+{
+  "version": "2.0",
+  "categories": [
+    {
+      "id": "dental",
+      "name": "Dental",
+      "sortOrder": 1,
+      "color": "#06b6d4",
+      "items": [
+        { "id": "item_1001", "name": "Dental floss", "notes": "", "isOnShoppingList": false },
+        { "id": "item_1002", "name": "Mouthwash", "notes": "", "isOnShoppingList": false },
+        { "id": "item_1003", "name": "Toothbrush heads", "notes": "", "isOnShoppingList": false },
+        { "id": "item_1004", "name": "Toothpaste", "notes": "", "isOnShoppingList": false }
+      ]
+    },
+    {
+      "id": "general_cleaner",
+      "name": "General cleaner",
+      "sortOrder": 2,
+      "color": "#8b5cf6",
+      "items": [
+        { "id": "item_2001", "name": "Ammonia", "notes": "", "isOnShoppingList": false },
+        { "id": "item_2002", "name": "Bleach", "notes": "", "isOnShoppingList": false },
+        { "id": "item_2003", "name": "Cleanser", "notes": "", "isOnShoppingList": false },
+        { "id": "item_2004", "name": "Furniture cleaner", "notes": "", "isOnShoppingList": false },
+        { "id": "item_2005", "name": "Hardwood floor cleaner", "notes": "", "isOnShoppingList": false },
+        { "id": "item_2006", "name": "Toilet bowl cleaner", "notes": "", "isOnShoppingList": false },
+        { "id": "item_2007", "name": "Toilet spray", "notes": "", "isOnShoppingList": false },
+        { "id": "item_2008", "name": "Window cleaner", "notes": "", "isOnShoppingList": false }
+      ]
+    },
+    {
+      "id": "general_supply",
+      "name": "General supply",
+      "sortOrder": 3,
+      "color": "#f59e0b",
+      "items": [
+        { "id": "item_3001", "name": "Battery 9V", "notes": "", "isOnShoppingList": false },
+        { "id": "item_3002", "name": "Battery AA", "notes": "", "isOnShoppingList": false },
+        { "id": "item_3003", "name": "Battery AAA", "notes": "", "isOnShoppingList": false },
+        { "id": "item_3004", "name": "Paper towel", "notes": "", "isOnShoppingList": false }
+      ]
+    },
+    {
+      "id": "hair_care",
+      "name": "Hair care",
+      "sortOrder": 4,
+      "color": "#ec4899",
+      "items": [
+        { "id": "item_4001", "name": "Hair conditioner", "notes": "", "isOnShoppingList": false },
+        { "id": "item_4002", "name": "Hair shampoo", "notes": "", "isOnShoppingList": false }
+      ]
+    },
+    {
+      "id": "kitchen_cleaner",
+      "name": "Kitchen cleaner",
+      "sortOrder": 5,
+      "color": "#22c55e",
+      "items": [
+        { "id": "item_5001", "name": "Dishwasher detergent", "notes": "", "isOnShoppingList": false },
+        { "id": "item_5002", "name": "Dishwashing liquid", "notes": "", "isOnShoppingList": false },
+        { "id": "item_5003", "name": "Kitchen brush", "notes": "", "isOnShoppingList": false },
+        { "id": "item_5004", "name": "Kitchen sponge", "notes": "", "isOnShoppingList": false }
+      ]
+    },
+    {
+      "id": "kitchen_supply",
+      "name": "Kitchen supply",
+      "sortOrder": 6,
+      "color": "#84cc16",
+      "items": [
+        { "id": "item_6001", "name": "CO2 cylinder", "notes": "", "isOnShoppingList": false },
+        { "id": "item_6002", "name": "Coffee filters", "notes": "", "isOnShoppingList": false },
+        { "id": "item_6003", "name": "Plastic wrap", "notes": "", "isOnShoppingList": false },
+        { "id": "item_6004", "name": "Wax paper", "notes": "", "isOnShoppingList": false }
+      ]
+    },
+    {
+      "id": "nutritional_supplement",
+      "name": "Nutritional supplement",
+      "sortOrder": 7,
+      "color": "#14b8a6",
+      "items": [
+        { "id": "item_7001", "name": "Iron supplement", "notes": "", "isOnShoppingList": false },
+        { "id": "item_7002", "name": "Multiple vitamin", "notes": "", "isOnShoppingList": false },
+        { "id": "item_7003", "name": "Niacinamide", "notes": "", "isOnShoppingList": false }
+      ]
+    },
+    {
+      "id": "personal_care",
+      "name": "Personal care",
+      "sortOrder": 8,
+      "color": "#3b82f6",
+      "items": [
+        { "id": "item_8001", "name": "Band-aids", "notes": "", "isOnShoppingList": false },
+        { "id": "item_8002", "name": "Cotton balls", "notes": "", "isOnShoppingList": false },
+        { "id": "item_8003", "name": "Deodorant - F", "notes": "", "isOnShoppingList": false },
+        { "id": "item_8004", "name": "Deodorant - M", "notes": "", "isOnShoppingList": false },
+        { "id": "item_8005", "name": "Hydrogen peroxide", "notes": "", "isOnShoppingList": false },
+        { "id": "item_8006", "name": "Isopropyl alcohol", "notes": "", "isOnShoppingList": false },
+        { "id": "item_8007", "name": "Kleenex", "notes": "", "isOnShoppingList": false },
+        { "id": "item_8008", "name": "Nail polish remover", "notes": "", "isOnShoppingList": false },
+        { "id": "item_8009", "name": "Q-tips", "notes": "", "isOnShoppingList": false },
+        { "id": "item_8010", "name": "Toilet paper", "notes": "", "isOnShoppingList": false },
+        { "id": "item_8011", "name": "Vaseline", "notes": "", "isOnShoppingList": false }
+      ]
+    },
+    {
+      "id": "pet",
+      "name": "Pet",
+      "sortOrder": 9,
+      "color": "#f97316",
+      "items": [
+        { "id": "item_9001", "name": "Dog ear cleaner", "notes": "", "isOnShoppingList": false },
+        { "id": "item_9002", "name": "Dog food", "notes": "", "isOnShoppingList": false }
+      ]
+    },
+    {
+      "id": "shaving",
+      "name": "Shaving",
+      "sortOrder": 10,
+      "color": "#64748b",
+      "items": [
+        { "id": "item_10001", "name": "Aftershave", "notes": "", "isOnShoppingList": false },
+        { "id": "item_10002", "name": "Shaving cream", "notes": "", "isOnShoppingList": false },
+        { "id": "item_10003", "name": "Shaving razor blade", "notes": "", "isOnShoppingList": false }
+      ]
+    },
+    {
+      "id": "skin_care",
+      "name": "Skin care",
+      "sortOrder": 11,
+      "color": "#a855f7",
+      "items": [
+        { "id": "item_11001", "name": "Bar soap", "notes": "", "isOnShoppingList": false },
+        { "id": "item_11002", "name": "Body lotion", "notes": "", "isOnShoppingList": false },
+        { "id": "item_11003", "name": "Body wash", "notes": "", "isOnShoppingList": false },
+        { "id": "item_11004", "name": "Hand lotion", "notes": "", "isOnShoppingList": false },
+        { "id": "item_11005", "name": "Liquid hand soap", "notes": "", "isOnShoppingList": false },
+        { "id": "item_11006", "name": "Sunscreen", "notes": "", "isOnShoppingList": false }
+      ]
+    },
+    {
+      "id": "washer_and_dryer",
+      "name": "Washer and dryer",
+      "sortOrder": 12,
+      "color": "#0ea5e9",
+      "items": [
+        { "id": "item_12001", "name": "Dryer sheets", "notes": "", "isOnShoppingList": false },
+        { "id": "item_12002", "name": "Laundry detergent", "notes": "", "isOnShoppingList": false }
+      ]
+    },
+    {
+      "id": "yard_and_garden",
+      "name": "Yard and garden",
+      "sortOrder": 13,
+      "color": "#22c55e",
+      "items": [
+        { "id": "item_13001", "name": "Brush Bags", "notes": "", "isOnShoppingList": false }
+      ]
+    }
+  ],
+  "lastModified": "2026-02-10T00:00:00.000Z"
+}
