@@ -286,13 +286,13 @@ function renderAllItems() {
                     </div>
                     ${sortedItems.map(item => `
                         <div class="item-row" onclick="openEditItemModal('${item.id}', '${category.id}')">
-                            <button class="cart-toggle ${item.isOnShoppingList ? 'active' : ''}"
-                                    onclick="toggleCartStatus(event, '${item.id}', '${category.id}')">
+                            <div class="cart-toggle ${item.isOnShoppingList ? 'active' : ''}"
+                                    onclick="toggleCartStatus(event, '${item.id}', '${category.id}')" role="button" tabindex="0">
                                 <svg viewBox="0 0 24 24" fill="${item.isOnShoppingList ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2">
                                     <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
                                     <path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/>
                                 </svg>
-                            </button>
+                            </div>
                             <div class="item-info">
                                 <div class="item-name">${escapeHtml(item.name)}</div>
                                 ${item.notes ? `<div class="item-notes">${escapeHtml(item.notes)}</div>` : ''}

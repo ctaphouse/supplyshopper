@@ -227,7 +227,6 @@ body {
 .item-row .cart-toggle {
     width: 26px;
     height: 26px;
-    border: none;
     background: transparent;
     color: var(--gray-300);
     display: flex;
@@ -236,6 +235,7 @@ body {
     flex-shrink: 0;
     cursor: pointer;
     border-radius: 6px;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .item-row .cart-toggle:active {
