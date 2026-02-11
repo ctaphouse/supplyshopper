@@ -1,12 +1,13 @@
-const CACHE_NAME = 'supply-list-v1';
+const CACHE_NAME = 'supply-list-v2';
+const BASE_PATH = '/supplyshopper/';
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/styles.css',
-    '/app.js',
-    '/manifest.json',
-    '/icons/icon-192.svg',
-    '/icons/icon-512.svg'
+    BASE_PATH,
+    BASE_PATH + 'index.html',
+    BASE_PATH + 'styles.css',
+    BASE_PATH + 'app.js',
+    BASE_PATH + 'manifest.json',
+    BASE_PATH + 'icons/icon-192.svg',
+    BASE_PATH + 'icons/icon-512.svg'
 ];
 
 // Install event - cache files
@@ -68,7 +69,7 @@ self.addEventListener('fetch', event => {
             })
             .catch(() => {
                 // Return offline page if available
-                return caches.match('/index.html');
+                return caches.match(BASE_PATH + 'index.html');
             })
     );
 });

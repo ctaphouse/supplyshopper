@@ -2,20 +2,21 @@
     "name": "Supply List",
     "short_name": "Supplies",
     "description": "A simple supply shopping list app",
-    "start_url": "/",
+    "start_url": "/supplyshopper/",
+    "scope": "/supplyshopper/",
     "display": "standalone",
     "background_color": "#f8fafc",
     "theme_color": "#14b8a6",
     "orientation": "portrait",
     "icons": [
         {
-            "src": "icons/icon-192.svg",
+            "src": "/supplyshopper/icons/icon-192.svg",
             "sizes": "192x192",
             "type": "image/svg+xml",
             "purpose": "any maskable"
         },
         {
-            "src": "icons/icon-512.svg",
+            "src": "/supplyshopper/icons/icon-512.svg",
             "sizes": "512x512",
             "type": "image/svg+xml",
             "purpose": "any maskable"
